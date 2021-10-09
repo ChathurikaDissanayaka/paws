@@ -1,0 +1,28 @@
+ul{
+    list-style: none;
+}
+
+.brand{
+    font-family: 'Ephesis', cursive;
+    font-weight: bold;
+    font-size:xx-large;
+}
+
+.foot-brand{
+    font-family: 'Ephesis', cursive;
+    font-weight: bold;
+}
+
+.showcase-back{
+    background-color: #fff8dc;
+}
+
+.adopt-section{
+    height: 100%;
+}
+
+@media (min-width: 768px){
+    .news-input{
+        width: 50%;
+    }
+}
