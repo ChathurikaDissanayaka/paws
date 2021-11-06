@@ -6,69 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Paws</title>
 </head>
 <body>
     <!-- ✨✨Navbar✨✨ -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
-        <div class="container">
-            <a href="#" class="navbar-brand text-warning brand">Paws</a>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top px-5">
+        <a href="#" class="navbar-brand text-warning brand">Paws</a>
             
-            <button 
-                class="navbar-toggler" 
-                type="button" 
-                data-bs-toggle="collapse" 
-                data-bs-target="#navmenu"
-            >
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div class="collapse navbar-collapse" id="navmenu">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item px-2">
-                        <a href="#supply" class="nav-link">Dog Supply Checklist</a>
-                    </li>
-                    <li class="nav-item px-2">
-                        <a href="#feeding" class="nav-link">Feeding</a>
-                    </li>
-                    <li class="nav-item px-2">
-                        <a href="#exercise" class="nav-link">Exercise</a>
-                    </li>
-                    <li class="nav-item px-2">
-                        <a href="#grooming" class="nav-link">Grooming</a>
-                    </li>
-                    <li class="nav-item px-2">
-                        <a href="#housing" class="nav-link">Housing</a>
-                    </li>
-                    <li class="nav-item px-2">
-                        <a href="#licensing" class="nav-link">Licensing and Identification</a>
-                    </li>
-                </ul>
-            </div>
+        <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item px-2 ms-auto">
+                    <a href="#supply" class="nav-link">Dog Supply Checklist</a>
+                </li>
+                <li class="nav-item px-2 ms-auto">
+                    <a href="#feeding" class="nav-link">Feeding</a>
+                </li>
+                <li class="nav-item px-2 ms-auto">
+                    <a href="#exercise" class="nav-link">Exercise</a>
+                </li>
+                <li class="nav-item px-2 ms-auto">
+                    <a href="#grooming" class="nav-link">Grooming</a>
+                </li>
+                <li class="nav-item px-2 ms-auto">
+                    <a href="#housing" class="nav-link">Housing</a>
+                </li>
+                <li class="nav-item px-2 ms-auto">
+                    <a href="#licensing" class="nav-link">Licensing and Identification</a>
+                </li>
+            </ul>
         </div>
     </nav>
 
     <!-- ✨✨Showcase✨✨ -->
     <section class="p-5 pt-lg-5 text-center text-sm-start showcase-back">
-        <div class="container">
             <div class="d-sm-flex align-items-center justify-content-between">
-                <div class="my-5">
+                <div class="my-5 pt-5">
                     <h1>Hello <span class="text-warning">Dog Lovers</span></h1>
-                    <p class="lead my-4">A dog can be a wonderful addition to any home, but whether you're an experienced pet parent or a first-time adopter, it's important to keep your canine companion's health and happiness a top priority. Below are some useful tips for all dog parents.</p>
+                    <p class="lead my-4 text-p">A dog can be a wonderful addition to any home, but whether you're an experienced pet parent or a first-time adopter, it's important to keep your canine companion's health and happiness a top priority. Below are some useful tips for all dog parents.</p>
                     <img src="img/Cautious_dog.svg" alt="" class="img-fluid mx-auto d-block w-50">
                 </div>
                 <img class="img-fluid w-50 pt-lg-5 d-none d-sm-block" src="img/dog-header.svg" alt="">
             </div>
-        </div>
     </section>
 
     <!-- ✨✨Newsletter✨✨ -->
     <section class="bg-warning text-light p-5">
-        <div class="container">
             <div class="d-md-flex justify-content-between align-items-center">
                 <h3 class="mb-3 mb-md-0">Sign up for our newsletter to get daily tips</h3>
             
@@ -81,169 +68,152 @@
                     <button class="btn btn-dark btn-lg" type="button">Submit</button>
                 </div>
             </div>
-        </div>
     </section>
 
     <!-- ✨✨Supply section✨✨ -->
-    <section id="supply" class="p-5">
-        <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-md">
-                    <img src="img/5.jpg" class="img-fluid d-none d-sm-block" alt="">
-                </div>
-                <div class="col-md p-5">
-                    <h2 class="mb-4 text-warning">Dog Supply Checklist</h2>
-                    <ul class="lead">
-                        <li class="mb-2"><i class="bi bi-check-circle text-warning"></i> Premium-quality dog food and treats</li>
-                        <li class="mb-2"><i class="bi bi-check-circle text-warning"></i> Food dish</li>
-                        <li class="mb-2"><i class="bi bi-check-circle text-warning"></i> Water bowl</li>
-                        <li class="mb-2"><i class="bi bi-check-circle text-warning"></i> Toys including safe chew toys</li>
-                        <li class="mb-2"><i class="bi bi-check-circle text-warning"></i> Brush & comb for grooming, including flea comb</li>
-                        <li class="mb-2"><i class="bi bi-check-circle text-warning"></i> Collar with license and ID tag</li>
-                        <li class="mb-2"><i class="bi bi-check-circle text-warning"></i> Leash</li>
-                        <li class="mb-2"><i class="bi bi-check-circle text-warning"></i> Carrier (for smaller dogs)</li>
-                        <li class="mb-2"><i class="bi bi-check-circle text-warning"></i> Training crate</li>
-                        <li class="mb-2"><i class="bi bi-check-circle text-warning"></i> Dog bed or box with warm blanket or towel</li>
-                        <li class="mb-2"><i class="bi bi-check-circle text-warning"></i> Dog toothbrush</li>
-                    </ul>
-                </div>
+    <section id="supply" class="px-5">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-md py-5">
+                <img src="img/5.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md py-5">
+                <h2 class="pb-4 text-warning">Dog Supply Checklist</h2>
+                <ul class="lead d-li">
+                    <li class="mb-2"><i class="bi bi-check-circle text-warning"></i> Premium-quality dog food and treats</li>
+                    <li class="mb-2"><i class="bi bi-check-circle text-warning"></i> Food dish</li>
+                    <li class="mb-2"><i class="bi bi-check-circle text-warning"></i> Water bowl</li>
+                    <li class="mb-2"><i class="bi bi-check-circle text-warning"></i> Toys including safe chew toys</li>
+                    <li class="mb-2"><i class="bi bi-check-circle text-warning"></i> Brush & comb for grooming, including flea comb</li>
+                    <li class="mb-2"><i class="bi bi-check-circle text-warning"></i> Collar with license and ID tag</li>
+                    <li class="mb-2"><i class="bi bi-check-circle text-warning"></i> Leash</li>
+                    <li class="mb-2"><i class="bi bi-check-circle text-warning"></i> Carrier (for smaller dogs)</li>
+                    <li class="mb-2"><i class="bi bi-check-circle text-warning"></i> Training crate</li>
+                    <li class="mb-2"><i class="bi bi-check-circle text-warning"></i> Dog bed or box with warm blanket or towel</li>
+                    <li class="mb-2"><i class="bi bi-check-circle text-warning"></i> Dog toothbrush</li>
+                </ul>
             </div>
         </div>
     </section>
 
     <!-- ✨✨Feeding section✨✨ -->
-    <section id="feeding" class="p-5 bg-dark text-light">
-        <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-md p-5">
-                    <h2 class="mb-4 text-warning">Feeding</h2>
-                    <p class="lead">
-                        Premium-quality dry food provides a well-balanced diet for adult dogs and may be mixed with water, broth, or canned food. Your dog may enjoy cottage cheese, cooked egg or fruits and vegetables, but these additions should not total more than ten percent of his daily food intake.
-                    </p>
-                    <p class="lead">
-                        Puppies should be fed a high-quality, brand-name puppy food (large breed puppy foods for large breeds). Please limit "people food," however, because it can result in vitamin and mineral imbalances, bone and teeth problems and may cause very picky eating habits and obesity. Clean, fresh water should be always available, and be sure to wash food and water dishes frequently.
-                    </p>
-                </div>
-                <div class="col-md">
-                    <img src="img/1.jpg" class="img-fluid d-none d-sm-block" alt="">
-                </div>
+    <section id="feeding" class="px-5 bg-dark text-light">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-md py-5">
+                <h2 class="pb-4 text-warning">Feeding</h2>
+                <p class="lead text-p">
+                    Premium-quality dry food provides a well-balanced diet for adult dogs and may be mixed with water, broth, or canned food. Your dog may enjoy cottage cheese, cooked egg or fruits and vegetables, but these additions should not total more than ten percent of his daily food intake.
+                </p>
+                <p class="lead text-p">
+                    Puppies should be fed a high-quality, brand-name puppy food (large breed puppy foods for large breeds). Please limit "people food," however, because it can result in vitamin and mineral imbalances, bone and teeth problems and may cause very picky eating habits and obesity. Clean, fresh water should be always available, and be sure to wash food and water dishes frequently.
+                </p>
+            </div>
+            <div class="col-md py-5">
+                <img src="img/1.jpg" class="img-fluid" alt="">
             </div>
         </div>
     </section>
 
     <!-- ✨✨Exercise section✨✨ -->
-    <section id="exercise" class="p-5">
-        <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-md">
-                    <img src="img/7.jpg" class="img-fluid d-none d-sm-block" alt="">
-                </div>
-                <div class="col-md p-5">
-                    <h2 class="mb-4 text-warning">Exercise</h2>
-                    <p class="lead">
-                        Dogs need exercise to burn calories, stimulate their minds, and stay healthy. Individual exercise needs vary based on breed or breed mix, sex, age, and level of health. Exercise also tends to help dogs avoid boredom, which can lead to destructive behaviors. Supervised fun and games will satisfy many of your pet's instinctual urges to dig, herd, chew, retrieve and chase.
-                    </p>
-                </div>
+    <section id="exercise" class="px-5">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-md py-5">
+                <img src="img/7.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md py-5">
+                <h2 class="pb-4 text-warning">Exercise</h2>
+                <p class="lead text-p">
+                    Dogs need exercise to burn calories, stimulate their minds, and stay healthy. Individual exercise needs vary based on breed or breed mix, sex, age, and level of health. Exercise also tends to help dogs avoid boredom, which can lead to destructive behaviors. Supervised fun and games will satisfy many of your pet's instinctual urges to dig, herd, chew, retrieve and chase.
+                </p>
             </div>
         </div>
     </section>
 
     <!-- ✨✨Grooming section✨✨ -->
-    <section id="grooming" class="p-5 bg-dark text-light">
-        <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-md p-5">
-                    <h2 class="mb-4 text-warning">Grooming</h2>
-                    <p class="lead">
-                        Help keep your dog clean and reduce shedding with frequent brushing. Check for fleas and ticks daily during warm weather. Most dogs don't need to be bathed more than a few times a year. Before bathing, comb or cut out all mats from the coat. Carefully rinse all soap out of the coat, or the dirt will stick to soap residue.
-                    </p>
-                </div>
-                <div class="col-md">
-                    <img src="img/4.jpg" class="img-fluid d-none d-sm-block" alt="">
-                </div>
+    <section id="grooming" class="px-5 bg-dark text-light">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-md py-5">
+                <h2 class="mb-4 text-warning">Grooming</h2>
+                <p class="lead text-p">
+                    Help keep your dog clean and reduce shedding with frequent brushing. Check for fleas and ticks daily during warm weather. Most dogs don't need to be bathed more than a few times a year. Before bathing, comb or cut out all mats from the coat. Carefully rinse all soap out of the coat, or the dirt will stick to soap residue.
+                </p>
+            </div>
+            <div class="col-md py-5">
+                <img src="img/4.jpg" class="img-fluid" alt="">
             </div>
         </div>
     </section>
 
     <!-- ✨✨Housing section✨✨ -->
-    <section id="housing" class="p-5">
-        <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-md">
-                    <img src="img/9.jpg" class="img-fluid d-none d-sm-block" alt="">
-                </div>
-                <div class="col-md p-5">
-                    <h2 class="mb-4 text-warning">Housing</h2>
-                    <p class="lead">
-                        Your pet needs a warm, quiet place to rest, away from all drafts and off the floor. A training crate or dog bed is ideal, with a clean blanket or pillow placed inside. Wash the dog's bedding often. If your dog will be spending a lot of time outdoors, be sure she has access to shade and plenty of cool water in hot weather, and a warm, dry, covered shelter when it's cold.
-                    </p>
-                </div>
+    <section id="housing" class="px-5">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-md py-5">
+                <img src="img/9.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md py-5">
+                <h2 class="mb-4 text-warning">Housing</h2>
+                <p class="lead text-p">
+                    Your pet needs a warm, quiet place to rest, away from all drafts and off the floor. A training crate or dog bed is ideal, with a clean blanket or pillow placed inside. Wash the dog's bedding often. If your dog will be spending a lot of time outdoors, be sure she has access to shade and plenty of cool water in hot weather, and a warm, dry, covered shelter when it's cold.
+                </p>
             </div>
         </div>
     </section>
 
     <!-- ✨✨Licensing section✨✨ -->
-    <section id="licensing" class="p-5 bg-dark text-light">
-        <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-md p-5">
-                    <h2 class="mb-4 text-warning">Licensing and Identification</h2>
-                    <p class="lead">
-                        Follow your community’s licensing regulations. Be sure to attach the license to your dog’s collar. This, along with an ID tag and implanted microchip or tattoo, can help secure your dog’s return should she become lost.
-                    </p>
-                </div>
-                <div class="col-md"> 
-                    <img src="img/3.jpg" class="img-fluid d-none d-sm-block" alt="">
-                </div>
+    <section id="licensing" class="px-5 bg-dark text-light">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-md py-5">
+                <h2 class="mb-4 text-warning">Licensing and Identification</h2>
+                <p class="lead text-p">
+                    Follow your community’s licensing regulations. Be sure to attach the license to your dog’s collar. This, along with an ID tag and implanted microchip or tattoo, can help secure your dog’s return should she become lost.
+                </p>
+            </div>
+            <div class="col-md py-5"> 
+                <img src="img/3.jpg" class="img-fluid" alt="">
             </div>
         </div>
     </section>
 
     <!-- ✨✨Adopt section✨✨ -->
-    <section class="p-5 adopt-section">
-        <div class="container">
-            <h2 class="p-5 text-warning">Do you want to adopt a dog?</h2>
-            <p class="text-center p-3">
-                <span class="fw-bold">Call us:</span> (555) 555-5555
-            </p>
+    <section class="py-5 adopt-section">
+        <h2 class="px-5 text-warning">Do you want to adopt a dog?</h2>
+        <p class="text-center p-3 text-p">
+            <span class="fw-bold">Call us:</span> (555) 555-5555
+        </p>
 
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/adopt-1.jpg" class="d-block mx-auto ci" alt="" width="85%">
                 </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="img/adopt-1.jpg" class="d-block w-50 mx-auto" alt="">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/adopt-2.jpg" class="d-block w-50 mx-auto" alt="">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/adopt-3.jpg" class="d-block w-50 mx-auto" alt="">
-                    </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                    </button>
+                <div class="carousel-item">
+                    <img src="img/adopt-2.jpg" class="d-block mx-auto ci" alt="" width="85%">
                 </div>
-        </div>
+                <div class="carousel-item">
+                    <img src="img/adopt-3.jpg" class="d-block mx-auto ci" alt="" width="85%">
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
     </section>
 
     <!-- ✨✨Footer✨✨ -->
-    <footer class="p-5 bg-dark text-white text-center position-relative">
-        <div class="container">
-            <p class="lead">Copyright &copy; 2021 <span class="text-warning foot-brand">Paws</span></p>
-            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+    <footer class="p-3 bg-dark text-white text-center position-relative">
+            <p class="lead text-p pt-3">Copyright &copy; 2021 <span class="text-warning foot-brand">Paws</span></p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-4">
                 <i class="bi bi-arrow-up-circle h1 text-warning"></i>
             </a>
-        </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
