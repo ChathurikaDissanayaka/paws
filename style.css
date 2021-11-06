@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+body{
+    font-family: 'Mukta', sans-serif;
+}
+
+h1, h2, h3{
+    font-weight: 900;
+}
+
 ul{
     list-style: none;
 }
@@ -24,5 +35,25 @@ ul{
 @media (min-width: 768px){
     .news-input{
         width: 50%;
+    }
+}
+
+@media (max-width: 768px){
+    h2, h3{
+        font-size:20px;
+    }
+
+    .d-li li, .text-p{
+        font-size:16px;
+    }
+}
+
+@media (max-width: 576px){
+    .d-li li, .text-p{
+        font-size:14px;
+    }
+
+    h2,h3{
+        font-size:18px;
     }
 }
